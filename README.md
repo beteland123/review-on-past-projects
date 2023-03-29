@@ -1,134 +1,21 @@
-# review-on-past-projects
-<a name="readme-top"></a>
-
-# 📗 Table of Contents
-
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-   - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
-
-# 📖 [project_name] <a name="about-project"></a>
-
-This project is called <h3>review on past project<h3>
-which is developed for the purpose of reviewning the code that have sumited in the mocroverse trial and for practicing what I have learned about code review process to check if the project applied with best pracicve of html and ccss.
-
-
-
-**[project__name]** is a <h3>review-on-past-projects</h3>
-
-## 🛠 Built With <a name="built-with"> using Html and CSS</a>
-
-
-### Key Features <a name="key-features"></a>
-
-
-
-- **[it can disaply the home of the page]**
-- **[it has vedio integrated with it]**
--
-
-## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link] https://github.com/beteland123/review-on-past-projects
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-### Prerequisites
-
-In order to run this project you need: To have a code edtitor like visual strudio, download git control system,download node  and configure linter in your local computer
-
-Example command: npm install to install dependent package
-               : npm install --save-dev hint@7.x to install webhint
-               :npm install -g lighthouse to install lighthouse
-                
-
-### Setup
-
-Clone this repository to your desired folder: 
-
-git clone https://github.com/beteland123/My-Portfolio.git
-  
- ### Install
-
-Install this project with:git
-### Run tests
-
-To run tests, run the following command:
-npx stylelint "**/*.{css,scss}" 
-npx hint .
-inspect the website if is responsive using diffrent scrren size
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
-
-## 👥 Authors <a name="authors"></a>
-
-
-👤 **Betel Andarge**
-
-- GitHub: [beteland123]
-
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **[I will  add the webpage for refrall links]**
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="support"></a>
-
-
-
-If you like this project email me through my email address...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-
-
-I would like to thank my Microvese partner who helped me alot when I struggle to configure flexbox
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](https://github.com/beteland123/prortifolio/blob/main/LICENSE) licensed.
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+about emebding vidieo
+<!--
+        1. Follow the instructions atop the [Recipes project](/courses/foundations/lessons/recipes) to set 
+        up a GitHub repository for this project (of course you'll need to change the title). 
+        2. Create a blank HTML document. 
+        3. Come up with a plan -- which sections of the page should be grouped together
+         (e.g. the navigation bar vs the video vs the sidebar etc)? 
+        4. Create empty semantic HTML elements to enclose those sections.
+        5. Use basic CSS to size and position them appropriately on the page. 
+          It may be helpful to make their backgrounds different colors so you can see the different sections.
+           Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
+        6. Now let's start filling in those divs with content by creating the navbar. 
+        7. Watch [this YouTube video on embedding a YouTube video in a webpage](https://www.youtube.com/watch?v=lJIrF4YjHfQ&feature=emb_title).
+        8. Embed a YouTube video of your choice into your page.
+        9. Next, build the sidebar section where previews of suggested videos show up. 
+           Obviously don't worry about generating those previews... just grab some thumbnail-sized images and plug them in.
+        10. Next, finish up by filling in some of the elements below the video -- the title, description and number of views.
+             Ignore the icons (many of them are produced using sprites or more advanced techniques 
+             so you won't be able to just grab them by copying them). 
+        11. Push your solution up to GitHub.
+    --> 
