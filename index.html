@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
+    <!--
+        1. Follow the instructions atop the [Recipes project](/courses/foundations/lessons/recipes) to set 
+        up a GitHub repository for this project (of course you'll need to change the title). 
+        2. Create a blank HTML document. 
+        3. Come up with a plan -- which sections of the page should be grouped together
+         (e.g. the navigation bar vs the video vs the sidebar etc)? 
+        4. Create empty semantic HTML elements to enclose those sections.
+        5. Use basic CSS to size and position them appropriately on the page. 
+          It may be helpful to make their backgrounds different colors so you can see the different sections.
+           Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
+        6. Now let's start filling in those divs with content by creating the navbar. 
+        7. Watch [this YouTube video on embedding a YouTube video in a webpage](https://www.youtube.com/watch?v=lJIrF4YjHfQ&feature=emb_title).
+        8. Embed a YouTube video of your choice into your page.
+        9. Next, build the sidebar section where previews of suggested videos show up. 
+           Obviously don't worry about generating those previews... just grab some thumbnail-sized images and plug them in.
+        10. Next, finish up by filling in some of the elements below the video -- the title, description and number of views.
+             Ignore the icons (many of them are produced using sprites or more advanced techniques 
+             so you won't be able to just grab them by copying them). 
+        11. Push your solution up to GitHub.
+    --> 
  <div class="cont">
     <div id="header">
          <form>
@@ -21,91 +41,91 @@
         </div>
        
         <div class="main"> 
-          <iframe  src="https://www.youtube.com/embed/Pwzd81hHffY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Pwzd81hHffY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
              </iframe>  
              <ul>
                  
-                 <li><img src="img/name.png" class="img" ></li>
-                 <li>&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<img src="img/like.png" >154k</li>
-                 <li>&nbsp; &nbsp;<img src="img/dont-like.png" class="img" > </li>
-                 <li>&nbsp; &nbsp; &nbsp;<img src="img/download.png" class="img">Download</li>
-                 <li>&nbsp; &nbsp; &nbsp;<img src="img/option.png" class="img"></li>
+                 <li style="display: inline;"><img src="img/name.png" width="220" height="30"></li>
+                 <li  style="text-align: center; display: inline;">&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<img src="img/like.png" width="30" height="20">154k</li>
+                 <li  style="text-align: center; display: inline;">&nbsp; &nbsp;<img src="img/dont-like.png" width="30" height="20"> </li>
+                 <li  style="text-align: center;display: inline;">&nbsp; &nbsp; &nbsp;<img src="img/download.png" width="30" height="20">Download</li>
+                 <li  style="text-align: center;display: inline;">&nbsp; &nbsp; &nbsp;<img src="img/option.png" width="30" height="20"></li>
              </ul> 
-             <p  class="p">Computer Programming Motivation</p>
+             <p style="max-width:70em;  height:30px ; padding: 0;">Computer Programming Motivation</p>
              <p>14,463 comments</p>
              
-                <img src="img/b.jpg" class="img2">&nbsp; &nbsp; &nbsp; <textarea  placeholder="Add comment..." ></textarea>
-                <hr >
+                <img src="img/b.jpg" width="80" height="40">&nbsp; &nbsp; &nbsp; <textarea  placeholder="Add comment..." ></textarea>
+                <hr style="width:50%;text-align:left;margin-left:0">
                 <br><br><br>
              <div >
-                <div class="comment-image"><img src="img/girl.png" class="img"> Chavez
+                <div class="comment-image"><img src="img/girl.png" width="30" height="20"> Chavez
                     Mirabel Chavez</div>
                 <div class="comments-text">
                     
                     <p class="comment-text">Thank you for the video. </p>
                     <p class="comment-text">It really helps those who are interested in coding and they are less knowledgeable in doing coding.</p>
-                    <p class="img"><img src="img/like.png" class="img"> &nbsp; &nbsp; &nbsp;<img src="img/dont-like.png" class="img">&nbsp; &nbsp; &nbsp; Reply</p>
+                    <p style="width: 30; height: 20;"><img src="img/like.png" width="30" height="20"> 3&nbsp; &nbsp; &nbsp;<img src="img/dont-like.png" width="30" height="20">&nbsp; &nbsp; &nbsp; Reply</p>
                 </div>
             </div> 
             <br><br><br>
             <div >
-                <div class="comment-image"><img src="img/girl.png" class="img">&nbsp; &nbsp; &nbsp;Natsuki-Nata</div>
+                <div class="comment-image"><img src="img/girl.png" width="30" height="20">&nbsp; &nbsp; &nbsp;Natsuki-Nata</div>
                 <div class="comments-text">
                     <p class="comment-text">"What do you want to be when you grow up?"
                         "A mermaid.".......me, literally, me. </p>
                     <p class="comment-text">My kid is gonna say.  I WANNA BE A FREAKING BLACK HAT  HACKER</p>
-                    <p class="img"><img src="img/like.png" class="img">&nbsp; &nbsp; &nbsp;<img src="img/dont-like.png" class="img">&nbsp; &nbsp; &nbsp; Reply</p>
+                    <p style="width: 30; height: 20;"><img src="img/like.png" width="30" height="20">&nbsp; &nbsp; &nbsp;<img src="img/dont-like.png" width="30" height="20">&nbsp; &nbsp; &nbsp; Reply</p>
                 </div>
             </div> 
             <br><br><br>
             <div >
-                <div class="comment-image"><img src="img/girl.png" class="img">&nbsp; &nbsp; &nbsp;Natsuki-Nata</div>
+                <div class="comment-image"><img src="img/girl.png" width="30" height="20">&nbsp; &nbsp; &nbsp;Natsuki-Nata</div>
                 <div class="comments-text">
                     <p class="comment-text">"What do you want to be when you grow up?"
                         "A mermaid.".......me, literally, me. </p>
                     <p class="comment-text">My kid is gonna say.  I WANNA BE A FREAKING BLACK HAT  HACKER</p>
-                    <p class="img"><img src="img/like.png" class="img">&nbsp; &nbsp; &nbsp;<img src="img/dont-like.png" class="img">&nbsp; &nbsp; &nbsp; Reply</p>
+                    <p style="width: 30; height: 20;"><img src="img/like.png" width="30" height="20">&nbsp; &nbsp; &nbsp;<img src="img/dont-like.png" width="30" height="20">&nbsp; &nbsp; &nbsp; Reply</p>
                 </div>
             </div> 
             <br><br><br>
             <div >
-                <div class="comment-image"><img src="img/girl.png" class="img">&nbsp; &nbsp; &nbsp;Natsuki-Nata</div>
+                <div class="comment-image"><img src="img/girl.png" width="30" height="20">&nbsp; &nbsp; &nbsp;Natsuki-Nata</div>
                 <div class="comments-text">
                     <p class="comment-text">"What do you want to be when you grow up?"
                         "A mermaid.".......me, literally, me. </p>
                     <p class="comment-text">My kid is gonna say.  I WANNA BE A FREAKING BLACK HAT  HACKER</p>
-                    <p class="img"><img src="img/like.png" class="img">&nbsp; &nbsp; &nbsp;<img src="img/dont-like.png" class="img">&nbsp; &nbsp; &nbsp; Reply</p>
+                    <p style="width: 30; height: 20;"><img src="img/like.png" width="30" height="20">&nbsp; &nbsp; &nbsp;<img src="img/dont-like.png" width="30" height="20">&nbsp; &nbsp; &nbsp; Reply</p>
                 </div>
             </div>
             <br><br><br> 
             <div >
-                <div class="comment-image"><img src="img/girl.png" class="img">&nbsp; &nbsp; &nbsp;Natsuki-Nata</div>
+                <div class="comment-image"><img src="img/girl.png" width="30" height="20">&nbsp; &nbsp; &nbsp;Natsuki-Nata</div>
                 <div class="comments-text">
                     <p class="comment-text">"What do you want to be when you grow up?"
                         "A mermaid.".......me, literally, me. </p>
                     <p class="comment-text">My kid is gonna say.  I WANNA BE A FREAKING BLACK HAT  HACKER</p>
-                    <p class="img"><img src="img/like.png" class="img">&nbsp; &nbsp; &nbsp;<img src="img/dont-like.png" class="img">&nbsp; &nbsp; &nbsp; Reply</p>
+                    <p style="width: 30; height: 20;"><img src="img/like.png" width="30" height="20">&nbsp; &nbsp; &nbsp;<img src="img/dont-like.png" width="30" height="20">&nbsp; &nbsp; &nbsp; Reply</p>
                 </div>
             </div> 
             <br><br><br>
             <div >
-                <div class="comment-image"><img src="img/girl.png" class="img">&nbsp; &nbsp; &nbsp;Natsuki-Nata</div>
+                <div class="comment-image"><img src="img/girl.png" width="30" height="20">&nbsp; &nbsp; &nbsp;Natsuki-Nata</div>
                 <div class="comments-text">
                     <p class="comment-text">"What do you want to be when you grow up?"
                         "A mermaid.".......me, literally, me. </p>
                     <p class="comment-text">My kid is gonna say.  I WANNA BE A FREAKING BLACK HAT  HACKER</p>
-                    <p class="img"><img src="img/like.png" class="img">&nbsp; &nbsp; &nbsp;<img src="img/dont-like.png" class="img">&nbsp; &nbsp; &nbsp; Reply</p>
+                    <p style="width: 30; height: 20;"><img src="img/like.png" width="30" height="20">&nbsp; &nbsp; &nbsp;<img src="img/dont-like.png" width="30" height="20">&nbsp; &nbsp; &nbsp; Reply</p>
                 </div>
             </div> 
             <br><br><br>
             <div >
-                <div class="comment-image"><img src="img/user.png" class="img">&nbsp; &nbsp; &nbsp;Mirabel Chavez
+                <div class="comment-image"><img src="img/user.png" width="30" height="20">&nbsp; &nbsp; &nbsp;Mirabel Chavez
                     Mirabel Chavez</div>
                 <div class="comments-text">
                     <p class="comment-text">Nice </p>
                     <p class="comment-text">while True:
                         print("That video was kinda cool!")</p>
-                    <p class="img"><img src="img/like.png" class="img">7&nbsp; &nbsp; &nbsp;<img src="img/dont-like.png" class="img">&nbsp; &nbsp; &nbsp; Reply</p>
+                    <p style="width: 30; height: 20;"><img src="img/like.png" width="30" height="20">7&nbsp; &nbsp; &nbsp;<img src="img/dont-like.png" width="30" height="20">&nbsp; &nbsp; &nbsp; Reply</p>
                 </div>
             </div> 
              
@@ -209,12 +229,7 @@
              </div>
         
      </div>
-  
-    
-   
-   
-   
-
+ 
     
 </body>
 </html>
