@@ -11,7 +11,33 @@ form {
   height: 100px;
   margin: 0 0 10px;
 }
+iframe{
+    width: 560 ;
+    height:315
+}
+li{
+    text-align: center; 
+    display: inline;
+}
+.img{
+    width: 220;
+     height: 30
+}
 
+p{
+max-width:70em; 
+ height:30px ; 
+ padding: 0;
+}
+.img2{
+    width:80 ;
+    height:40;
+}
+hr{
+    width:50%;
+    text-align:left;
+    margin-left:0
+}
 .views {
   color: rgb(86, 137, 182);
 }
