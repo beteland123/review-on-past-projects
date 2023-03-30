@@ -28,7 +28,36 @@ textarea {
   font-size: 16px;
   resize: none;
 }
-
+.btn img{
+    width:10px;
+     height:10px;
+}
+.subscribtion{
+    width:220px;
+     height:30px;
+}
+.frameLi{
+    display: inline;
+    text-align:center;
+}
+.reaction{
+    width:30px;
+     height:20px;
+}
+.title{
+    max-width:70em; 
+     height:30px ;
+      padding: 0;
+}
+hr{
+    width:50%;
+    text-align:left;
+    margin-left:0
+}
+.icon{
+    width:80px; 
+    height:40px;
+}
 ul {
   list-style-type: none;
   color: black;
